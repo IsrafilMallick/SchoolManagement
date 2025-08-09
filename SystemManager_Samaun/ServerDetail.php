@@ -1,0 +1,12 @@
+<?php
+date_default_timezone_set("Asia/Kolkata");
+$servername="localhost";
+/*
+$username="ishacomp_scec";
+$password="9x{5)yP?#}e4";
+$databasename="ishacomp_scec";
+*/
+$username="root";
+$password="";
+$databasename="school_smps";
+?>

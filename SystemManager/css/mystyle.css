@@ -1,0 +1,250 @@
+.UpperCase
+{
+	text-transform:uppercase;
+}
+
+.LowerCase
+{
+	text-transform:lowercase;
+}
+
+.Capitalize
+{
+	text-transform:capitalize;
+}
+
+#tblttl{
+	vertical-align:middle;
+	text-align:center;
+	font-weight:bold;
+	font-family:"Adobe Caslon Pro";
+	font-size:18px;
+	color:#e17b1b;
+}
+
+#tblttl1{
+	vertical-align:middle;
+	text-align:left;
+	font-weight:bold;
+	font-family:"Adobe Caslon Pro";
+	font-size:16px;
+	color:#e17b1b;
+}
+
+#tblttl2{
+	vertical-align:middle;
+	text-align:right;
+	font-weight:bold;
+	font-family:"Adobe Caslon Pro";
+	font-size:16px;
+	color:#e17b1b;
+}
+
+#tblrecord{
+	vertical-align:middle; 
+	text-align:center; 
+	color:#F00; 
+	font-family:'Arial Black', Gadget, sans-serif; 
+	font-size:18px;
+	font-weight:bold;
+}
+
+#tblhed{
+	vertical-align:middle;
+	text-align:center;
+	font-weight:bold;
+	font-size:16px;
+	font-family:"Times New Roman", Times, serif;
+	color:#000;
+}
+
+#tblhedtot{
+	vertical-align:middle;
+	text-align:right;
+	font-weight:bold;
+	font-size:16px;
+	font-family:"Times New Roman", Times, serif;
+	color:#0C0;
+}
+
+#tblhed1{
+	vertical-align:middle;
+	font-weight:bold;
+	font-size:16px;
+	font-family:"Times New Roman", Times, serif;
+	color:#000;
+}
+
+#tblhed2{
+	vertical-align:middle;
+	text-align:right;
+	font-weight:bold;
+	font-size:16px;
+	font-family:"Times New Roman", Times, serif;
+	color:#000;
+}
+
+#tblhedpdf{
+	vertical-align:middle;
+	text-align:center;
+	font-weight:bold;
+	font-size:16px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+
+#tblfooter{
+	text-align:center;
+	font-weight:bold;
+	color:#F00;
+	font-size:20px;
+	font-family:"Times New Roman", Times, serif;
+}
+
+#tblhedrecord{
+	vertical-align:middle;
+	text-align:center;
+	color:#F00;
+	font-family:'Arial Black', Gadget, sans-serif;
+	font-size:18px;"
+}
+
+#tblhedrow{
+	vertical-align:middle;
+	text-align:right;
+	font-weight:bold;
+	font-size:16px;
+	font-family:"Times New Roman", Times, serif;
+	color:#000;
+}
+
+#tblhedrowmrks{
+	vertical-align:middle;
+	text-align:right;
+	font-weight:bold;
+	font-size:19px;
+	font-family:arial;
+	color:#6c3720;
+}
+
+#tblbody{
+	text-align:center;
+	vertical-align:middle;
+	font-family:"Times New Roman", Times, serif;
+	color:#000;
+}
+
+#tblbodynm{
+	vertical-align:middle;
+	font-family:"Times New Roman", Times, serif;
+	color:#000;
+}
+
+#tblbodyrow{
+	text-align:right;
+	vertical-align:middle;
+}
+
+#tblbodyview{
+	text-align:left;
+	vertical-align:middle;
+	color:#F0F;
+	font-weight:bold;
+}
+
+#tblbodyview1{
+	text-align:center;
+	vertical-align:middle;
+	color:#F0F;
+	font-weight:bold;
+}
+
+#tblbodynmmrks{
+	vertical-align:middle;
+	font-family:'Arial Black';
+	font-size:18px;
+	color:#000;
+}
+
+#tblbodylink{
+	text-align:center;
+	vertical-align:middle;
+	cursor:pointer;
+	font-family:"Times New Roman", Times, serif;
+	color:#000;
+}
+
+.tilt {
+ 
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {  
+
+     -webkit-transform:scale(3.5);
+    -moz-transform:scale(3.5); 
+    -ms-transform:scale(3.5); 
+    -o-transform:scale(3.5);
+     transform:scale(3.5);
+}
+
+.image:hover {
+-webkit-box-shadow: 0px 0px 15px 15px #fff;
+box-shadow: 0px 0px 15px 15px #fff;
+border-radius:50%;
+-webkit-transform: rotate(720deg);
+transform: rotate(720deg);
+}
+.image {
+opacity: 1;
+-webkit-transition: all 0.7s ease;
+transition: all 0.7s ease;
+}
+
+.watermark{
+	position: absolute;
+	top:270px;
+	right:115px;
+ 	opacity: .3;
+	z-index:20;
+}
+
+.colorful{
+    /*width: 100px;
+    height: 100px;*/
+    color: #C3F;
+    -webkit-animation-name: example; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 7s; /* Safari 4.0 - 8.0 */
+    animation-name: example;
+    animation-duration: 7s;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes example {
+    0%   {color: red;}
+    10%  {color: green;}
+    20%  {color: yellow;}
+    30% {color: blue;}
+    40% {color: orange;}
+    50% {color: yellow;}
+    60% {color: red;}
+    70% {color: green;}
+    80% {color: yellow;}
+    90% {color: blue;}
+    100% {color: orange;}
+}
+
+/* Standard syntax */
+@keyframes example {
+    0%   {color: red;}
+    10%  {color: green;}
+    20%  {color: yellow;}
+    30% {color: blue;}
+    40% {color: orange;}
+    50% {color: yellow;}
+    60% {color: red;}
+    70% {color: green;}
+    80% {color: yellow;}
+    90% {color: blue;}
+    100% {color: orange;}
+}

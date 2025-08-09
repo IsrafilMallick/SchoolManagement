@@ -1,0 +1,12 @@
+<?php
+date_default_timezone_set("Asia/Kolkata");
+$servername="localhost";
+/*
+$username="computercenter_bamanpukurncte";
+$password=")X5W[d{vl0xJ";
+$databasename="schoolcomputer_BamanpukurNCTE";
+*/
+$username="root";
+$password="";
+$databasename="computercenter_bamanpukurncte";
+?>

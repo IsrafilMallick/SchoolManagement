@@ -1,0 +1,12 @@
+<?php
+date_default_timezone_set("Asia/Kolkata");
+$servername="localhost";
+/*
+$username="schoolcomputer_smps";
+$password="Israfil@1991";
+$databasename="schoolcomputer_smps";
+*/
+$username="root";
+$password="";
+$databasename="school_smps";
+?>
